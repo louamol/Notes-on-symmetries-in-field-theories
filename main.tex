@@ -15,84 +15,131 @@
 
 \maketitle
 
+\tableofcontents
+
 \section{Lagrangian formalism}
 
-    A \emph{classical field theory} is the data $(M,g,\F,S)$ where
+    From the start, one needs two distingue two types of field theories:
     \begin{itemize}
-        \item $M$ is a smooth $n$-manifold provided with a Lorentzian metric $g$ that define a \emph{spacetime} $(M,g)$,
-        \item $\F$ is the \emph{configuration space} of fields. In the case where we only have one \emph{real scalar field} we have $\F= C^\infty(M,\R)$,
-        \item $S$ is a map called the \emph{action} of the theory defined from the a \emph{lagrangian}
-        \begin{equation}
-            \L:\left(
-            \begin{array}{ccc}
-                \F & \longrightarrow & C^\infty(M,\R) \\
-                \phi & \longmapsto & \L[g;\phi]
-            \end{array}
-            \right)
-        \end{equation}
-        as
-        \begin{equation}
-            S:\left(
-            \begin{array}{ccc}
-                \F & \longrightarrow & \R \\
-                \phi & \longmapsto & S[g;\phi]
-            \end{array}
-            \right)\qquad\text{ with }\qquad S[g;\phi]=\int_M~dV_g\L[g,\phi]
-        \end{equation}
-        where $dV_g$ is the (peudo-)riemannian volume form on $(M,g)$.
+        \item Field theories with \emph{fixed background} where the metric is fixed (usually a solution of Einstein's equations in vacuum) and do not interact with the other fields. Even though it is not physically correct, it is a very convenient setup which is widely used.
+        \item Field theories with \emph{dynamical background} where the metric is dynamical, the action then usually includes the Einstein-Hilbert action and the metric can be considered more like a generic field, which interacts with the others.
     \end{itemize}
+    The two types will be given precise definitions in the following.
 
+    \subsection{Field theories with fixed background}
 
-\section{Symmetries}
+        A \emph{classical field theory} with fixed background is the data $(M,g,E,S)$ where
+        \begin{enumerate}
+            \item $M$ is a smooth $n$-manifold provided with a Lorentzian metric $g$ that define a \emph{spacetime} $(M,g)$,
+            \item $E\xrightarrow[]{\pi}M$ is (real or complex) vector bundle on $M$. The sections of this bundle are called \emph{dynamical fields}. The set of all possible fields is then $\F\equiv\Gamma(E)$ and is called the \emph{field configuration space}. The fiber of $E$ is called the \emph{target space} of the fields and denoted $\T$,
+            \item $S$ is a map called the \emph{action} of the theory defined from a \emph{lagrangian}
+            \begin{equation}
+                \L:\left(
+                \begin{array}{ccc}
+                    \F & \longrightarrow & C^\infty(M,\R) \\
+                    \phi & \longmapsto & \L[g;\phi]
+                \end{array}
+                \right)
+            \end{equation}
+            as
+            \begin{equation}
+                S:\left(
+                \begin{array}{ccc}
+                    \F & \longrightarrow & \R \\
+                    \phi & \longmapsto & S[g;\phi]
+                \end{array}
+                \right)\qquad\text{ with }\qquad S[g;\phi]=\int_M~dV_g\L[g,\phi]
+            \end{equation}
+            where $dV_g$ is the (peudo-)riemannian volume form on $(M,g)$.
+        \end{enumerate}
+        In practice the lagrangian often depends (in an inexplicit way or not) on the metric so we wrote this dependence explicitely, it will be useful later on. Let us emphasize the fact that we distinguish the metric from the dynamical fields although it can also be viewed as the section of a vector bundle. In this kind of field theory the metric is therefore not like any other generic field but is a fixed quantity given beforehand and necessary to define the theory. In more physical terms, we consider a fixed background.
 
-\section{Examples}
+        The field configuration space, i.e. the target space, can take different forms depending on the theory. The most elementary choices are
+        \begin{itemize}
+            \item $\T=\R$: theory of one real scalar field,
+            \item $\T=\C$: theory of one complex scalar field,
+            \item $\T=\R^4$: theory of one real vector field,
+            \item $\T=\C^4$: theory of one complex vector field,
+        \end{itemize}
+        We can have an arbitrary number of any field type at the same time by taking product of the those spaces.
 
+    \subsection{Field theories with dynamical background}
 
+\section{Field transformations}
 
-    for example, where $dV_g$ the riemannian volume form associated to $g$. What does it mean for this action to be invariant under a diffeomorphism $a:M\to M$? One could agree that it always is since integrals are invariant by definition. Since we did not use the expression the lagrangian, this would imply that the action in invariant under any global coordinate transformation and, maybe even more shockingly, that any action is conformally invariant. This manifestly false statement misses the fact that the action is not just an integral but rather a functional, i.e. a map
-    \begin{equation}
-        S:C^\infty(M,\R)\to\R
-    \end{equation}
-    which associate any scalar field $\phi$ to a real number, in the case where we only have scalar fields. We therefore need to make the difference between \emph{background fields}\index{field!background} that are fixed and \emph{dynamical fields}\index{field!dynamical} that have associated equations motion, those are the real variable of the action. Let us start by considering a scalar field on a background spacetime. W adopt the notations
-    \begin{equation}
-        S[g;\phi]=\int_M dV_g~\L[g;\phi]
-    \end{equation}
-    where the dependence of the fields is structured such that background fields appear in first and dynamical fields in second, separated by semicolons. Note that we usually never explicitly keep track of the background fields but this will allow us to distinguish transformations that act on the background spacetime or on the fields. From this perspective, one must distinguish three kinds of transformations:
-    \begin{itemize}
-        \item \emph{passive transformation}: $S[g;\phi]\mapsto S[a^*g,\phi]$. Invariant if $S[g;\phi]=S[a^*g,\phi]$.
-        \item \emph{active transformation}: $S[g;\phi]\mapsto S[g;a^*\phi]$. Invariance if $S[g;\phi]= S[g;a^*\phi]$.
-        \item \emph{proper diffeomorphism}: $S[g;\phi]\mapsto S[a^*g,a^*\phi]$, it is a pure mathematical redundancy. We always have $S[g;\phi]=S[a^*g,a^*\phi]$, regardless of the action, by definition of the integral on a manifold. See e.g. \textbf{Proposition 16.6} (d) in \cite{Lee_2012}. Indeed, if $\eta\equiv\L[g;\phi]dV_g\in\Omega^n(M)$ (recall that $\L[g;\phi]\in C^\infty(M,\R)$ and $dV_g\in\Omega^n(M)$), then
-        \begin{align}
-            (a^*\eta)_p&=(\L[g;\phi]\circ a)(p)(a^*(dV_g))_p\\
-            &= (\L[g;\phi]\circ a)(p)(dV_{a^*g})_p\\
-            &= \L[g;a^*\phi](p)(dV_{a^*g})_p
-        \end{align}
-        where we used the fact that $a^*(dV_g)=dV_{a^*g}$ and $a^*\L[g;\phi]=\L[a^*g;a^*\phi]$. The former is a property of the riemannian volume form and the latter comes from. Consequently,
+    What does it mean for a action to be invariant under diffeomorphisms? One could agree that any action is diffemorphism-invariant since the integration on manifolds is diffeomorphism-invariant by definition. Since we did not use the expression the lagrangian, this would imply that all actions are invariant under all global coordinate transformations and, maybe even more shockingly, that all actions are conformaly invariant. This manifestly false statement misses the fact that the action is not just an integral but rather a functional, i.e. a map $S:\F\to\R$ which associates to any field $\phi$ a real number. More precisely, the differnece between dynamical and non-dynamical fields (the metric) si very important here.
+
+    First, we need to distinguish two types of field transformations. An \emph{external field transformation} is a diffeomorphism $a:M\to M$, so it acts on the spacetime manifold. On the other hand, an \emph{internal field transformation} is a diffeomorphism $A:\F\to\F$, so it acts on the field configuration space.\todo{Is this well-defined ?}
+
+    \subsection{External field transformations}
+
+        What does it mean for a action to be invariant under diffeomorphisms? One could agree that any action is diffemorphism-invariant since the integration on manifolds is diffeomorphism-invariant by definition. Since we did not use the expression the lagrangian, this would imply that all actions are invariant under all global coordinate transformations and, maybe even more shockingly, that all actions are conformaly invariant. This manifestly false statement misses the fact that the action is not just an integral but rather a functional, i.e. a map $S:\F\to\R$ which associates to any field $\phi$ a real number. More precisely, the differnece between dynamical and non-dynamical fields (the metric) si very important here.
+
+        Let us consider an external transformation $a$, i.e. $a$ is a diffeomorphism from $M$ to $M$. Since the action takes fields as argument and that the fields are smooth maps on $M$, we can define a transformation of the action $S$ induced from the external transformation $a$. More precisely, this can be defined in three ways:
+        \begin{itemize}
+            \item \emph{passive transformation}: $S[g;\phi]\mapsto S[a^*g,\phi]$,
+            \item \emph{active transformation}: $S[g;\phi]\mapsto S[g;a^*\phi]$,
+            \item \emph{proper diffeomorphism}: $S[g;\phi]\mapsto S[a^*g,a^*\phi]$  See e.g. \textbf{Proposition 16.6} (d) in \cite{Lee_2012}.
+        \end{itemize}
+        Now it make sense that we always have $S[g;\phi]=S[a^*g,a^*\phi]$, regardless of the action, by definition of the integral on a manifold. This can be shown properly.
+        \begin{prop}
+            Any action is invariant under any proper diffeomorphism.
+        \end{prop}
+        \begin{proof}
+            If $\eta\equiv\L[g;\phi]dV_g\in\Omega^n(M)$ (recall that $\L[g;\phi]\in C^\infty(M,\R)$ and $dV_g\in\Omega^n(M)$), then
+            \begin{align}
+                (a^*\eta)_p&=(\L[g;\phi]\circ a)(p)(a^*(dV_g))_p\\
+                &= (\L[g;\phi]\circ a)(p)(dV_{a^*g})_p\\
+                &= \L[g;a^*\phi](p)(dV_{a^*g})_p
+            \end{align}
+            where we used the fact that $a^*(dV_g)=dV_{a^*g}$ and $a^*\L[g;\phi]=\L[a^*g;a^*\phi]$. The former is a property of the riemannian volume form and the latter comes from. Consequently,
+            \begin{equation}
+                S[a^*g,a^*\phi] = \int_M a^*dV_g~\L[g;a^*\phi] = \int_M a^*\eta = \int_M \eta = S[g;\phi].
+            \end{equation}\todo{Complete the devlopment.}
+        \end{proof}
+        So proper diffeomorphisms are a pure mathematical redundancies. They have no physical interest; the invariance of a theory under proper diffeomorphism is just a consequence of the coordinate-independent setup that we use, i.e. differential geometry.
+
+        \begin{prop}
+            Passive and active transformations only differ by a proper diffeomorphism.
+        \end{prop}
+        \begin{proof}
+            From the previous definitions, we can see that
         \begin{equation}
-            S[a^*g,a^*\phi] = \int_M a^*dV_g~\L[g;a^*\phi] = \int_M a^*\eta = \int_M \eta = S[g;\phi].
+            S[a^*g;\phi]\mapsto S[(a^{-1})^*(a^*g);(a^{-1})^*\phi]=S[g;(a^{-1})^*\phi].
         \end{equation}
-    \end{itemize}
-    From those definitions, one can see that active and passive transformations only differ by a proper diffeomorphism:
-    \begin{equation}
-        S[a^*g;\phi]\mapsto S[(a^{-1})^*(a^*g);(a^{-1})^*\phi]=S[g;(a^{-1})^*\phi].
-    \end{equation}
-    Since proper diffeomorphism are trivial transformations, this means that active and passive transformations have the same physical relevance or, in other words, that they are equivalent: doing one or the other\footnote{If one takes the inverse diffeomorphism.} is strictly equivalent. In particular, we have invariance under some passive transformations if and only if we have invariance under the corresponding active transformations. In physics, we usually choose to act on the dynamical fields (active point of view). The passive point of view is nonetheless useful to develop an intuition about the relevance of only transforming the back ground metric or the field, not the two at the same time (proper diffeomorphism). (Insert Pauolo's thought experiment).
-    
-    Let us make a few comments.
-    \begin{itemize}
-        \item Note that all of this discussion can be generalized for lagrangian densities that depend on vector fields, $n$-forms or any $(p,q)$-tensor in general by appropriately transporting the quantities with $a$ or $a^{-1}$. In our case we have only used $a$ because forms as well a functions are naturally pulled back. For a general $(p,q)$-tensor, we have
+        \end{proof}
+        Since proper diffeomorphisms are trivial transformations, this means that active and passive transformations have the same physical relevance or, in other words, that they are equivalent: doing one or the other\footnote{If one takes the inverse diffeomorphism.} is strictly the same operation. In particular, we have invariance under some passive transformations if and only if we have invariance under the corresponding active transformations. In physics, we usually choose to act on the dynamical fields, this called the \emph{active point of view}. On the other hand, we could choose to act on the non-dynamical fields, this is the \emph{passive point of view}. This point of view is useful to develop an intuition about the relevance of only transforming the background metric or the fields, not the two at the same time, which gives a proper diffeomorphism. (Insert Pauolo's thought experiment).
+        
+        Note that all of this discussion can be generalized for lagrangian densities that depend on vector fields, $n$-forms or any $(p,q)$-tensor in general by appropriately transporting the quantities with $a$ or $a^{-1}$. In our case we have only used $a$ because forms as well a functions are naturally pulled back. For a general $(p,q)$-tensor, we have
         \begin{equation}
             T\mapsto (a^*T)(\omega_1,\dots,\omega_p,X_1,\dots,X_q)\equiv T(a^*\omega_1,\dots,a^*\omega_p,(a^{-1})_*X_1,\dots,(a^{-1})_*X_q).
         \end{equation}
-        \item We only discussed \emph{external symmetries}\index{symmetry!external}, i.e. symmetries that act on spacetime. \emph{Internal symmetries}\index{symmetry!internal}, i.e. symmetries that act only on fields, do not have the same active/passive point of views.
-    \end{itemize}
+
+    \subsection{Internal field transformations}
+
+        \begin{prop}
+            Any external field transformation can be viewed as an internal field transformation.
+        \end{prop}
+
+    \subsection{Symmetries}
+
+        An \emph{external symmetry} is external field transformation $a$ such that $S[g;a^*\phi]=S[g;\phi]$. Similarly, an \emph{internal symmetry} is internal field transformation $a$ such that $S[g;a^*\phi]=S[g;\phi]$.
+
+    \subsection{Fields and representations of the isometry group}
+
+        Isometries are a the diffeomorphisms $a:M\to M$ such that $a^*g=g$. Since any external transformation $a$ on $M$ is equivalent is equivalent to an internal transformation $A_a$ on $\F$, we can see that
+        \begin{eqnarray}
+            S[g;\phi]=S[a^*g;\phi]=S[g;(a^{-1})^*\phi]=S[g;A_a(\phi)]
+        \end{eqnarray}
+        so the internal transformation $A_a$ associated to an isometry $a$ is an symmetry. In other words, the group of isometries of $(M,g)$ is realized in some way on the field configuration space. To find the representations of $\text{ISO}(M,g)$ on $\F$ one must study its infinite-dimensional representation theory. This also constrain the fields, which is a crucial point: the fields living on a fixed spacetime must form a representation of the isometry group this spacetime. 
     
+\section{Examples}
+
     \begin{examp}
             Enlightened by this discussion, let us show that the action of a free massless scalar field on a flat background is invariant under dilatation. We have
             \begin{equation}
                 S[\phi]=\int_{\R^D}\d^Dx~\eta^{\mu\nu}\p_\mu\phi\p_\nu\phi.
             \end{equation}
-            
     \end{examp}
 
 \pagebreak

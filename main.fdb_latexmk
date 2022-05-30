@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1653921970 "main.bcf" "main.bbl" "main" 1653922056
+["biber main"] 1653930831 "main.bcf" "main.bbl" "main" 1653933093
   "bibliography.bib" 1653920762 560 63730aa758a26afaafb563ba8c1943c4 ""
-  "main.bcf" 1653922055 106062 89ec341fbbf3d2e2b84766de49a7604b "pdflatex"
+  "main.bcf" 1653933093 106062 89ec341fbbf3d2e2b84766de49a7604b "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1653922054 "/home/louan/Documents/LaTeX/Notes on symmetries in field theories/main.tex" "main.pdf" "main" 1653922056
+["pdflatex"] 1653933092 "/home/louan/Documents/LaTeX/Notes on symmetries in field theories/main.tex" "main.pdf" "main" 1653933093
   "/home/louan/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1000.pk" 1611436566 20028 83828bfc09cd7e155b44dbc196c7a2de ""
   "/home/louan/.miktex/texmfs/data/fonts/tfm/public/esvect/vect10.tfm" 1607267400 372 07da2e555f4c8dac959d0bb59cacb4dc ""
   "/home/louan/.miktex/texmfs/data/fonts/tfm/public/esvect/vect5.tfm" 1607267401 372 28e18d88a38be26cb20dc1302f0fdc04 ""
@@ -372,14 +372,15 @@
   "/home/louan/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty" 1623060370 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "/home/louan/.miktex/texmfs/install/tex/latex/zref/zref-abspage.sty" 1609679784 2275 d29aca6fd67823551cb07584e3681d5d ""
   "/home/louan/.miktex/texmfs/install/tex/latex/zref/zref-base.sty" 1609679784 20688 beaddf14d96104d4bf016523be5395c5 ""
-  "/home/louan/Documents/LaTeX/Notes on symmetries in field theories/main.tex" 1653922052 6754 e8a289c5e14cde12a74c8cc8cd210e5f ""
+  "/home/louan/Documents/LaTeX/Notes on symmetries in field theories/main.tex" 1653933091 11258 40678f5463c7840ee5d42978fb69971c ""
   "Packages/custom_macros.tex" 1653921970 5419 a577c37e8281f49f26a698c8b701f024 ""
   "Packages/custom_packages.tex" 1653920909 5808 ccb3a3a8fc409810737ec9882ead4d1c ""
-  "main.aux" 1653922055 2236 c07de362faa39d78c62db63d8927d606 "pdflatex"
-  "main.bbl" 1653921971 3217 318aec435fc134fdd8885ca9dbb59eeb "biber main"
-  "main.out" 1653922055 322 da4c808c47821a2099abc0e70a3bcc5d "pdflatex"
-  "main.run.xml" 1653922055 2307 fa280d158a7733084a6a66e2106e4193 "pdflatex"
-  "main.tex" 1653922052 6754 e8a289c5e14cde12a74c8cc8cd210e5f ""
+  "main.aux" 1653933093 4478 f6a4becc94ee93a75ddaaeb0e532a87b "pdflatex"
+  "main.bbl" 1653930832 3217 318aec435fc134fdd8885ca9dbb59eeb "biber main"
+  "main.out" 1653933093 1746 9120b38f699eb6128896fde5dbd5ceb9 "pdflatex"
+  "main.run.xml" 1653933093 2307 fa280d158a7733084a6a66e2106e4193 "pdflatex"
+  "main.tex" 1653933091 11258 40678f5463c7840ee5d42978fb69971c ""
+  "main.toc" 1653933093 1249 9d8065aec7b76ea95822600eaffa2d2f "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
@@ -387,3 +388,4 @@
   "main.out"
   "main.pdf"
   "main.run.xml"
+  "main.toc"
