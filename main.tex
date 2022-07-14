@@ -30,9 +30,18 @@
 
         A \emph{classical field theory} with fixed background is the data $(M,g,E,S)$ where
         \begin{enumerate}
-            \item $M$ is a smooth $n$-manifold provided with a Lorentzian metric $g$ that define a \emph{spacetime} $(M,g)$,
+            \item $M$ is a smooth $n$-manifold provided with a Lorentzian metric $g$ that define a Lorentzian manifold $(M,g)$ called \emph{spacetime},
             \item $E\xrightarrow[]{\pi}M$ is (real or complex) vector bundle on $M$. The sections of this bundle are called \emph{dynamical fields}. The set of all possible fields is then $\F\equiv\Gamma(E)$ and is called the \emph{field configuration space}. The fiber of $E$ is called the \emph{target space} of the fields and denoted $\T$,
-            \item $S$ is a map called the \emph{action} of the theory defined from a \emph{lagrangian}
+            \item $S$ is a map called the \emph{action} 
+            \begin{equation}
+                S:\left(
+                \begin{array}{ccc}
+                    \F & \longrightarrow & \R \\
+                    \phi & \longmapsto & S[g;\phi]
+                \end{array}
+                \right)\qquad\text{ with }
+            \end{equation}
+            which is defined from a \emph{lagrangian}
             \begin{equation}
                 \L:\left(
                 \begin{array}{ccc}
@@ -43,14 +52,13 @@
             \end{equation}
             as
             \begin{equation}
-                S:\left(
-                \begin{array}{ccc}
-                    \F & \longrightarrow & \R \\
-                    \phi & \longmapsto & S[g;\phi]
-                \end{array}
-                \right)\qquad\text{ with }\qquad S[g;\phi]=\int_M~dV_g\L[g,\phi]
+                S[g;\phi]=\int_M~dV_g\L[g,\phi]
             \end{equation}
-            where $dV_g$ is the (peudo-)riemannian volume form on $(M,g)$.
+            where $dV_g$ is the (peudo-)riemannian volume form on $(M,g)$. The lagrangian must satisfy the property
+            \begin{equation}
+                \L[a^*g;a^*\phi]=\L[g;\phi]\circ a\label{eq:lagcdt}
+            \end{equation}
+            for any diffeomorphism $a:M\to M$.
         \end{enumerate}
         In practice the lagrangian often depends (in an inexplicit way or not) on the metric so we wrote this dependence explicitely, it will be useful later on. Let us emphasize the fact that we distinguish the metric from the dynamical fields although it can also be viewed as the section of a vector bundle. In this kind of field theory the metric is therefore not like any other generic field but is a fixed quantity given beforehand and necessary to define the theory. In more physical terms, we consider a fixed background.
 
@@ -86,18 +94,16 @@
             Any action is invariant under any proper diffeomorphism.
         \end{prop}
         \begin{proof}
-            If $\eta\equiv\L[g;\phi]dV_g\in\Omega^n(M)$ (recall that $\L[g;\phi]\in C^\infty(M,\R)$ and $dV_g\in\Omega^n(M)$), then
+            Since $\L[g;\phi]\in C^\infty(M,\R)$ and $dV_g\in\Omega^n(M)$, we have $\omega\equiv\L[g;\phi]dV_g\in\Omega^n(M)$, therefore $a^*\eta=(\L[g;\phi]\circ a) a^*(dV_g)$. By property of the riemannian volume form, we also have $a^*(dV_g)=dV_{a^*g}$. Consequently,
             \begin{align}
-                (a^*\eta)_p&=(\L[g;\phi]\circ a)(p)(a^*(dV_g))_p\\
-                &= (\L[g;\phi]\circ a)(p)(dV_{a^*g})_p\\
-                &= \L[g;a^*\phi](p)(dV_{a^*g})_p
+                S[a^*g,a^*\phi] &= \int_M dV_{a^*g}\L[a^*g;a^*\phi] \\
+                &\stackrel{\label{eq:lagcdt}}{=} \int_M a^*dV_g~(\L[g;\phi]\circ a) \\
+                &= \int_M a^*(dV_g\L[g;\phi]) \\
+                &= \int_{a(M)} dV_g\L[g;\phi] \\
+                &= S[g;\phi].
             \end{align}
-            where we used the fact that $a^*(dV_g)=dV_{a^*g}$ and $a^*\L[g;\phi]=\L[a^*g;a^*\phi]$. The former is a property of the riemannian volume form and the latter comes from. Consequently,
-            \begin{equation}
-                S[a^*g,a^*\phi] = \int_M a^*dV_g~\L[g;a^*\phi] = \int_M a^*\eta = \int_M \eta = S[g;\phi].
-            \end{equation}\todo{Complete the devlopment.}
         \end{proof}
-        So proper diffeomorphisms are a pure mathematical redundancies. They have no physical interest; the invariance of a theory under proper diffeomorphism is just a consequence of the coordinate-independent setup that we use, i.e. differential geometry.
+        So proper diffeomorphisms are a pure mathematical redundancies. They have no physical interest; the invariance of a theory under proper diffeomorphism is just a consequence of the coordinate-independent setup of differential geometry.
 
         \begin{prop}
             Passive and active transformations only differ by a proper diffeomorphism.
@@ -117,21 +123,64 @@
 
     \subsection{Internal field transformations}
 
+        For external field transformation, we saw that we were acting the fields (either the metric or the other fields depending on the active/passive point of view) by the means of pullbacks, which means that we really are acting on $M$, since
+        \begin{equation}
+            a^*\phi=\phi\circ a.
+        \end{equation}
+        Now, on the other hand, an \emph{internal field transformation} is a map that acts directly on the fields:
+        \begin{equation}
+            A:\left(
+            \begin{array}{ccc}
+                \F & \longrightarrow & \F \\
+                \phi & \longmapsto & A(\phi)
+            \end{array}\right).
+        \end{equation}
+        and that can be of any form. In general, it will be the action of a Lie group on the fibers of $E$.
+
+        By definition of external transformation, we can see that they are, in particular, internal transformations:
         \begin{prop}
             Any external field transformation can be viewed as an internal field transformation.
         \end{prop}
+        \begin{proof}
+            It suffices to define the internal field transformation $A_a$ associated to the external field transformation $a$ as
+            \begin{equation}
+                A_a(\phi)\equiv(a^{-1})^*\phi=\phi\circ a^{-1}.
+            \end{equation}
+        \end{proof}
+        The for acting with the inverse pullback will be motivated later.
 
     \subsection{Symmetries}
 
-        An \emph{external symmetry} is external field transformation $a$ such that $S[g;a^*\phi]=S[g;\phi]$. Similarly, an \emph{internal symmetry} is internal field transformation $a$ such that $S[g;a^*\phi]=S[g;\phi]$.
+        An \emph{external symmetry} is external field transformation $a$ such that $S[g;a^*\phi]=S[g;\phi]$. Similarly, an \emph{internal symmetry} is internal field transformation $A$ such that $S[g;A(\phi)]=S[g;\phi]$.
+
+        The distinction between external and internal field transformation might look like it is useless since external transformation are in particular internal transformations. However, the crucial point is that, even though we usually use the active point of view when we talk about external field transformations, we showed that it was equivalent to the active point of view, in which the metric is being acted upon. In particular, this implies that if an external field transformation $a:M\to M$ is an isometry, i.e. $a^*g=g$ then this transformation is automatically a external symmetry, by definition, and vice-versa:
+        \begin{prop}
+            An external field transformation $a$ is a symmetry if and only if it is an isometry of the spacetime.
+        \end{prop}
 
     \subsection{Fields and representations of the isometry group}
 
-        Isometries are a the diffeomorphisms $a:M\to M$ such that $a^*g=g$. Since any external transformation $a$ on $M$ is equivalent is equivalent to an internal transformation $A_a$ on $\F$, we can see that
+        
+        
+        Since any external transformation $a$ on $M$ is equivalent to an internal transformation $A_a$ on $\F$, we can see that
         \begin{eqnarray}
             S[g;\phi]=S[a^*g;\phi]=S[g;(a^{-1})^*\phi]=S[g;A_a(\phi)]
         \end{eqnarray}
-        so the internal transformation $A_a$ associated to an isometry $a$ is an symmetry. In other words, the group of isometries of $(M,g)$ is realized in some way on the field configuration space. To find the representations of $\text{ISO}(M,g)$ on $\F$ one must study its infinite-dimensional representation theory. This also constrain the fields, which is a crucial point: the fields living on a fixed spacetime must form a representation of the isometry group this spacetime. 
+        so the internal transformation $A_a$ associated to an isometry $a$ is an internal symmetry. In other words, the group of isometries of $(M,g)$ is realized in some way on the field configuration space.
+        \begin{prop}
+            The internal field symmetry $A_a$ associated to external symmetries $a$ form a representation of $\ISO(M,g)$ on $\F$.
+        \end{prop}
+        \begin{proof}
+            Let $a,b\in\ISO(M,g)$ and $A_a,A_b:\F\to\F$ be the associated internal field symmetries, then
+            \begin{itemize}
+                \item $(A_a\circ A_b)(\phi)=\phi\circ b^{-1}\circ a^{-1} = \phi\circ(a\circ b)^{-1} = A_{a\circ b}$,
+                \item $A_{\text{id}} = \phi\circ\text{id}=\phi$
+            \end{itemize}
+            for all $\phi\in\F$.
+        \end{proof}
+        This motivates our choice to act with the inverse pullback rather than the pullback itself, as the product would be ill-defined.
+
+        To find the irreducible representations of $\ISO(M,g)$ on $\F$, one must study its infinite-dimensional representation theory. This also constrain the fields, which is a crucial point: the fields living on a fixed spacetime must form an infinite-dimensional representation of the isometry group this spacetime.
     
 \section{Examples}
 

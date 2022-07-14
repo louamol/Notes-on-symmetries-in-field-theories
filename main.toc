@@ -13,8 +13,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}Internal field transformations}{3}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Symmetries}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Symmetries}{4}{subsection.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Fields and representations of the isometry group}{3}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}Fields and representations of the isometry group}{4}{subsection.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Examples}{3}{section.3}%
+\contentsline {section}{\numberline {3}Examples}{4}{section.3}%

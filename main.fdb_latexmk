@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1653930831 "main.bcf" "main.bbl" "main" 1653933093
+["biber main"] 1653930831 "main.bcf" "main.bbl" "main" 1657792920
   "bibliography.bib" 1653920762 560 63730aa758a26afaafb563ba8c1943c4 ""
-  "main.bcf" 1653933093 106062 89ec341fbbf3d2e2b84766de49a7604b "pdflatex"
+  "main.bcf" 1657792920 106062 89ec341fbbf3d2e2b84766de49a7604b "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1653933092 "/home/louan/Documents/LaTeX/Notes on symmetries in field theories/main.tex" "main.pdf" "main" 1653933093
+["pdflatex"] 1657792918 "/home/louan/Documents/LaTeX/Notes on symmetries in field theories/main.tex" "main.pdf" "main" 1657792920
   "/home/louan/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1000.pk" 1611436566 20028 83828bfc09cd7e155b44dbc196c7a2de ""
   "/home/louan/.miktex/texmfs/data/fonts/tfm/public/esvect/vect10.tfm" 1607267400 372 07da2e555f4c8dac959d0bb59cacb4dc ""
   "/home/louan/.miktex/texmfs/data/fonts/tfm/public/esvect/vect5.tfm" 1607267401 372 28e18d88a38be26cb20dc1302f0fdc04 ""
@@ -17,7 +17,7 @@
   "/home/louan/.miktex/texmfs/data/fonts/tfm/public/rsfs/rsfs5.tfm" 1607267399 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "/home/louan/.miktex/texmfs/data/fonts/tfm/public/rsfs/rsfs7.tfm" 1607267401 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
   "/home/louan/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1623060436 9760138 78556465be0ab57c8e755d0a9bde811d ""
-  "/home/louan/.miktex/texmfs/data/pdftex/config/pdftex.map" 1653414023 156781 2227b596a1f8012c43702bbfe3b87284 ""
+  "/home/louan/.miktex/texmfs/data/pdftex/config/pdftex.map" 1657628983 156810 75e38fe992ec9ca5bf6d5bf598d827c1 ""
   "/home/louan/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc" 1605294551 4993 1194fb36dfcb11d9ae9802f2b00b60a3 ""
   "/home/louan/.miktex/texmfs/install/fonts/tfm/adobe/symbol/psyr.tfm" 1136768654 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/psyro.tfm" 1136768654 1544 23a042a74981a3e4b6ce2e350e390409 ""
@@ -372,15 +372,15 @@
   "/home/louan/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty" 1623060370 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "/home/louan/.miktex/texmfs/install/tex/latex/zref/zref-abspage.sty" 1609679784 2275 d29aca6fd67823551cb07584e3681d5d ""
   "/home/louan/.miktex/texmfs/install/tex/latex/zref/zref-base.sty" 1609679784 20688 beaddf14d96104d4bf016523be5395c5 ""
-  "/home/louan/Documents/LaTeX/Notes on symmetries in field theories/main.tex" 1653933091 11258 40678f5463c7840ee5d42978fb69971c ""
+  "/home/louan/Documents/LaTeX/Notes on symmetries in field theories/main.tex" 1657792918 14158 eec072e10f6b31a9a481dfdfe3b81ac2 ""
   "Packages/custom_macros.tex" 1653921970 5419 a577c37e8281f49f26a698c8b701f024 ""
   "Packages/custom_packages.tex" 1653920909 5808 ccb3a3a8fc409810737ec9882ead4d1c ""
-  "main.aux" 1653933093 4478 f6a4becc94ee93a75ddaaeb0e532a87b "pdflatex"
+  "main.aux" 1657792920 4801 45bac85f6068584aa093d872066a2427 "pdflatex"
   "main.bbl" 1653930832 3217 318aec435fc134fdd8885ca9dbb59eeb "biber main"
-  "main.out" 1653933093 1746 9120b38f699eb6128896fde5dbd5ceb9 "pdflatex"
-  "main.run.xml" 1653933093 2307 fa280d158a7733084a6a66e2106e4193 "pdflatex"
-  "main.tex" 1653933091 11258 40678f5463c7840ee5d42978fb69971c ""
-  "main.toc" 1653933093 1249 9d8065aec7b76ea95822600eaffa2d2f "pdflatex"
+  "main.out" 1657792920 1746 9120b38f699eb6128896fde5dbd5ceb9 "pdflatex"
+  "main.run.xml" 1657792920 2307 fa280d158a7733084a6a66e2106e4193 "pdflatex"
+  "main.tex" 1657792918 14158 eec072e10f6b31a9a481dfdfe3b81ac2 ""
+  "main.toc" 1657792920 1249 42a6e5d799e158b40c0de966c616b100 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
