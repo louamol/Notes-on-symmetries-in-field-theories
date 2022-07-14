@@ -2044,6 +2044,7 @@ INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/public/stix/stix-mathfrak.tfm
 INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/public/stix/stix-mathfrak.tfm
 INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/public/stix/stix-mathfrak.tfm
+INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmb8t.tfm
 OUTPUT main.toc
 INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/zptmcm7t.tfm
@@ -2076,6 +2077,8 @@ INPUT /home/louan/.miktex/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /home/louan/.miktex/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT /home/louan/.miktex/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
+INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /home/louan/.miktex/texmfs/install/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /home/louan/.miktex/texmfs/install/fonts/vf/adobe/times/zptmcm7y.vf
@@ -2098,12 +2101,12 @@ INPUT /home/louan/.miktex/texmfs/install/fonts/vf/adobe/times/zptmcm7y.vf
 INPUT /home/louan/.miktex/texmfs/install/fonts/vf/adobe/times/zptmcm7v.vf
 INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/public/cm/cmex10.tfm
 INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/adobe/symbol/psyr.tfm
+INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /home/louan/.miktex/texmfs/install/fonts/vf/adobe/times/zptmcm7y.vf
 INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /home/louan/.miktex/texmfs/data/fonts/tfm/public/rsfs/rsfs10.tfm
-INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /home/louan/.miktex/texmfs/install/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /home/louan/.miktex/texmfs/install/fonts/tfm/public/cm/cmr10.tfm
 INPUT /home/louan/.miktex/texmfs/install/fonts/vf/adobe/times/ptmr8t.vf

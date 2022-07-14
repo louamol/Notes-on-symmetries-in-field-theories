@@ -17,7 +17,7 @@
 
 \tableofcontents
 
-\section{Lagrangian formalism}
+\section{Introduction}
 
     From the start, one needs two distingue two types of field theories:
     \begin{itemize}
@@ -26,52 +26,52 @@
     \end{itemize}
     The two types will be given precise definitions in the following.
 
-    \subsection{Field theories with fixed background}
+\part{Field theories with fixed background}
 
-        A \emph{classical field theory} with fixed background is the data $(M,g,E,S)$ where
-        \begin{enumerate}
-            \item $M$ is a smooth $n$-manifold provided with a Lorentzian metric $g$ that define a Lorentzian manifold $(M,g)$ called \emph{spacetime},
-            \item $E\xrightarrow[]{\pi}M$ is (real or complex) vector bundle on $M$. The sections of this bundle are called \emph{dynamical fields}. The set of all possible fields is then $\F\equiv\Gamma(E)$ and is called the \emph{field configuration space}. The fiber of $E$ is called the \emph{target space} of the fields and denoted $\T$,
-            \item $S$ is a map called the \emph{action} 
-            \begin{equation}
-                S:\left(
-                \begin{array}{ccc}
-                    \F & \longrightarrow & \R \\
-                    \phi & \longmapsto & S[g;\phi]
-                \end{array}
-                \right)\qquad\text{ with }
-            \end{equation}
-            which is defined from a \emph{lagrangian}
-            \begin{equation}
-                \L:\left(
-                \begin{array}{ccc}
-                    \F & \longrightarrow & C^\infty(M,\R) \\
-                    \phi & \longmapsto & \L[g;\phi]
-                \end{array}
-                \right)
-            \end{equation}
-            as
-            \begin{equation}
-                S[g;\phi]=\int_M~dV_g\L[g,\phi]
-            \end{equation}
-            where $dV_g$ is the (peudo-)riemannian volume form on $(M,g)$. The lagrangian must satisfy the property
-            \begin{equation}
-                \L[a^*g;a^*\phi]=\L[g;\phi]\circ a\label{eq:lagcdt}
-            \end{equation}
-            for any diffeomorphism $a:M\to M$.
-        \end{enumerate}
-        In practice the lagrangian often depends (in an inexplicit way or not) on the metric so we wrote this dependence explicitely, it will be useful later on. Let us emphasize the fact that we distinguish the metric from the dynamical fields although it can also be viewed as the section of a vector bundle. In this kind of field theory the metric is therefore not like any other generic field but is a fixed quantity given beforehand and necessary to define the theory. In more physical terms, we consider a fixed background.
+\section{Lagrangian formalism}
 
-        The field configuration space, i.e. the target space, can take different forms depending on the theory. The most elementary choices are
-        \begin{itemize}
-            \item $\T=\R$: theory of one real scalar field,
-            \item $\T=\C$: theory of one complex scalar field,
-            \item $\T=\R^4$: theory of one real vector field,
-            \item $\T=\C^4$: theory of one complex vector field,
-        \end{itemize}
-        We can have an arbitrary number of any field type at the same time by taking product of the those spaces.
+    A \emph{classical field theory} with fixed background is the data $(M,g,E,S)$ where
+    \begin{enumerate}
+        \item $M$ is a smooth $n$-manifold provided with a Lorentzian metric $g$ that define a Lorentzian manifold $(M,g)$ called \emph{spacetime},
+        \item $E\xrightarrow[]{\pi}M$ is (real or complex) vector bundle on $M$. The sections of this bundle are called \emph{dynamical fields}. The set of all possible fields is then $\F\equiv\Gamma(E)$ and is called the \emph{field configuration space}. The fiber of $E$ is called the \emph{target space} of the fields and denoted $\T$,
+        \item $S$ is a map called the \emph{action} 
+        \begin{equation}
+            S:\left(
+            \begin{array}{ccc}
+                \F & \longrightarrow & \R \\
+                \phi & \longmapsto & S[g;\phi]
+            \end{array}
+            \right)\qquad\text{ with }
+        \end{equation}
+        which is defined from a \emph{lagrangian}
+        \begin{equation}
+            \L:\left(
+            \begin{array}{ccc}
+                \F & \longrightarrow & C^\infty(M,\R) \\
+                \phi & \longmapsto & \L[g;\phi]
+            \end{array}
+            \right)
+        \end{equation}
+        as
+        \begin{equation}
+            S[g;\phi]=\int_M~dV_g\L[g,\phi]
+        \end{equation}
+        where $dV_g$ is the (peudo-)riemannian volume form on $(M,g)$. The lagrangian must satisfy the property
+        \begin{equation}
+            \L[a^*g;a^*\phi]=\L[g;\phi]\circ a\label{eq:lagcdt}
+        \end{equation}
+        for any diffeomorphism $a:M\to M$.
+    \end{enumerate}
+    In practice the lagrangian often depends (in an inexplicit way or not) on the metric so we wrote this dependence explicitely, it will be useful later on. Let us emphasize the fact that we distinguish the metric from the dynamical fields although it can also be viewed as the section of a vector bundle. In this kind of field theory the metric is therefore not like any other generic field but is a fixed quantity given beforehand and necessary to define the theory. In more physical terms, we consider a fixed background.
 
-    \subsection{Field theories with dynamical background}
+    The field configuration space, i.e. the target space, can take different forms depending on the theory. The most elementary choices are
+    \begin{itemize}
+        \item $\T=\R$: theory of one real scalar field,
+        \item $\T=\C$: theory of one complex scalar field,
+        \item $\T=\R^4$: theory of one real vector field,
+        \item $\T=\C^4$: theory of one complex vector field,
+    \end{itemize}
+    We can have an arbitrary number of any field type at the same time by taking product of the those spaces.
 
 \section{Field transformations}
 
@@ -190,6 +190,8 @@
                 S[\phi]=\int_{\R^D}\d^Dx~\eta^{\mu\nu}\p_\mu\phi\p_\nu\phi.
             \end{equation}
     \end{examp}
+
+\part{Field theories with dynamical background}
 
 \pagebreak
 
