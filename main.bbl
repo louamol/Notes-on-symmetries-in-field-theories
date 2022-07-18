@@ -54,6 +54,40 @@
       \verb http://dx.doi.org/10.1007/978-1-4419-9982-5
       \endverb
     \endentry
+    \entry{https://doi.org/10.48550/arxiv.1512.02632}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c11bb054f7c863ce71c2bbe165b62bad}{%
+           family={Hamilton},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi J.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{c11bb054f7c863ce71c2bbe165b62bad}
+      \strng{fullhash}{c11bb054f7c863ce71c2bbe165b62bad}
+      \strng{bibnamehash}{c11bb054f7c863ce71c2bbe165b62bad}
+      \strng{authorbibnamehash}{c11bb054f7c863ce71c2bbe165b62bad}
+      \strng{authornamehash}{c11bb054f7c863ce71c2bbe165b62bad}
+      \strng{authorfullhash}{c11bb054f7c863ce71c2bbe165b62bad}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Higgs boson for mathematicians. Lecture notes on gauge theory and symmetry breaking}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1512.02632
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1512.02632
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1512.02632
+      \endverb
+      \keyw{Differential Geometry (math.DG),High Energy Physics - Theory (hep-th),Geometric Topology (math.GT),FOS: Mathematics,FOS: Mathematics,FOS: Physical sciences,FOS: Physical sciences}
+    \endentry
     \entry{Lee_2018}{book}{}
       \name{author}{1}{}{%
         {{hash=36896354ee3aedc1a13d683ea773634e}{%
@@ -72,8 +106,8 @@
       \strng{authornamehash}{36896354ee3aedc1a13d683ea773634e}
       \strng{authorfullhash}{36896354ee3aedc1a13d683ea773634e}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Graduate Texts in Mathematics}

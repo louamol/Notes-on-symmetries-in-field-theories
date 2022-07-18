@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1653930831 "main.bcf" "main.bbl" "main" 1657793063
-  "bibliography.bib" 1653920762 560 63730aa758a26afaafb563ba8c1943c4 ""
-  "main.bcf" 1657793063 106062 89ec341fbbf3d2e2b84766de49a7604b "pdflatex"
+["biber main"] 1658151540 "main.bcf" "main.bbl" "main" 1658151543
+  "bibliography.bib" 1658150559 1127 3a7c1e44cb63f2c53125e53cc3d512cd ""
+  "main.bcf" 1658151543 106228 8763757e29ffd6b3bcabed64351bf964 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1657793061 "/home/louan/Documents/LaTeX/Notes on symmetries in field theories/main.tex" "main.pdf" "main" 1657793063
+["pdflatex"] 1658151541 "/home/louan/Documents/LaTeX/Notes on symmetries in field theories/main.tex" "main.pdf" "main" 1658151543
   "/home/louan/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1000.pk" 1611436566 20028 83828bfc09cd7e155b44dbc196c7a2de ""
   "/home/louan/.miktex/texmfs/data/fonts/tfm/public/esvect/vect10.tfm" 1607267400 372 07da2e555f4c8dac959d0bb59cacb4dc ""
   "/home/louan/.miktex/texmfs/data/fonts/tfm/public/esvect/vect5.tfm" 1607267401 372 28e18d88a38be26cb20dc1302f0fdc04 ""
@@ -30,6 +30,8 @@
   "/home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmri7t.tfm" 1136768654 2288 f478fc8fed18759effb59f3dad7f3084 ""
   "/home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmri8r.tfm" 1136768654 4640 532ca3305aad10cc01d769f3f91f1029 ""
   "/home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmri8t.tfm" 1136768654 6944 94c55ad86e6ea2826f78ba2240d50df9 ""
+  "/home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmro8r.tfm" 1136768654 4548 f370a182a02c40d95c5554802dc0f174 ""
+  "/home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/ptmro8t.tfm" 1136768654 6792 47ec25d9cde9feef87a90c47a9fbc4d5 ""
   "/home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/zptmcm7m.tfm" 1136768654 2232 db256afffc8202da192b4641df14d602 ""
   "/home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/zptmcm7t.tfm" 1136768654 2172 1d00c2a0d10f23031be62329457a870c ""
   "/home/louan/.miktex/texmfs/install/fonts/tfm/adobe/times/zptmcm7v.tfm" 1136768654 1032 20febbd0f0c9a48eb78616f897008286 ""
@@ -84,6 +86,7 @@
   "/home/louan/.miktex/texmfs/install/fonts/vf/adobe/times/ptmr8t.vf" 1136768654 2348 91706c542228501c410c266421fbe30c ""
   "/home/louan/.miktex/texmfs/install/fonts/vf/adobe/times/ptmrc8t.vf" 1136768654 3608 78e4c999d9e69f03f448158d01821741 ""
   "/home/louan/.miktex/texmfs/install/fonts/vf/adobe/times/ptmri8t.vf" 1136768654 2328 6cd7df782b09b29cfc4d93e55b6b9a59 ""
+  "/home/louan/.miktex/texmfs/install/fonts/vf/adobe/times/ptmro8t.vf" 1136768654 2356 c62a9e3d92ec3ebab0f81e654c0829a1 ""
   "/home/louan/.miktex/texmfs/install/fonts/vf/adobe/times/zptmcm7m.vf" 1136768654 1132 27520247d3fe18d4266a226b461885c2 ""
   "/home/louan/.miktex/texmfs/install/fonts/vf/adobe/times/zptmcm7t.vf" 1136768654 1108 d271d6f9de4122c3f8d3b65666167fac ""
   "/home/louan/.miktex/texmfs/install/fonts/vf/adobe/times/zptmcm7v.vf" 1136768654 1012 046369ac6a83af997c3aa05a43256ad5 ""
@@ -372,15 +375,15 @@
   "/home/louan/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty" 1623060370 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "/home/louan/.miktex/texmfs/install/tex/latex/zref/zref-abspage.sty" 1609679784 2275 d29aca6fd67823551cb07584e3681d5d ""
   "/home/louan/.miktex/texmfs/install/tex/latex/zref/zref-base.sty" 1609679784 20688 beaddf14d96104d4bf016523be5395c5 ""
-  "/home/louan/Documents/LaTeX/Notes on symmetries in field theories/main.tex" 1657793059 13998 862b5c72f6baa18be277d4ac5dc35f4e ""
+  "/home/louan/Documents/LaTeX/Notes on symmetries in field theories/main.tex" 1658151538 14485 cbd19bdc127158c4cd2a5bc80fb57bd0 ""
   "Packages/custom_macros.tex" 1653921970 5419 a577c37e8281f49f26a698c8b701f024 ""
-  "Packages/custom_packages.tex" 1653920909 5808 ccb3a3a8fc409810737ec9882ead4d1c ""
-  "main.aux" 1657793063 4915 6f17207c17daa8730ab7e0840b689b4a "pdflatex"
-  "main.bbl" 1653930832 3217 318aec435fc134fdd8885ca9dbb59eeb "biber main"
-  "main.out" 1657793063 1865 d982133b732ddb57df70382afb318eb4 "pdflatex"
-  "main.run.xml" 1657793063 2307 fa280d158a7733084a6a66e2106e4193 "pdflatex"
-  "main.tex" 1657793059 13998 862b5c72f6baa18be277d4ac5dc35f4e ""
-  "main.toc" 1657793063 1319 3089dd00075cb1488531a800016b92e5 "pdflatex"
+  "Packages/custom_packages.tex" 1658151054 5812 b8e59e2124af883bc33d5ef438e7a366 ""
+  "main.aux" 1658151543 6326 31c696edb5df4477f1b36b78761c8014 "pdflatex"
+  "main.bbl" 1658151541 4736 91127173982df9be4c51aca75df4a554 "biber main"
+  "main.out" 1658151543 2832 9896191d894b18232fcf97e10ac31f0d "pdflatex"
+  "main.run.xml" 1658151543 2307 fa280d158a7733084a6a66e2106e4193 "pdflatex"
+  "main.tex" 1658151538 14485 cbd19bdc127158c4cd2a5bc80fb57bd0 ""
+  "main.toc" 1658151543 2041 f925c2c4260b92d46449b987bc1a0ef5 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

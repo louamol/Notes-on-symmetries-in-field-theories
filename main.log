@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.6.7)  14 JUL 2022 12:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.6.7)  18 JUL 2022 15:39
 entering extended mode
 **"/home/louan/Documents/LaTeX/Notes on symmetries in field theories/main.tex"
 (/home/louan/Documents/LaTeX/Notes on symmetries in field theories/main.tex
@@ -1646,70 +1646,71 @@ LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input li
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 ) (main.toc
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7.4> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 4.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 4.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
 )
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 24.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
  [1
 
 {/home/louan/.miktex/texmfs/data/pdftex/config/pdftex.map}]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 80.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 26.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
  [2]
-Package hyperref Info: bookmark level for unknown prop defaults to 0 on input line 94.
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 84.
+ [3]
+Package hyperref Info: bookmark level for unknown prop defaults to 0 on input line 98.
 
-Overfull \hbox (6.26938pt too wide) in paragraph at lines 97--98
+Overfull \hbox (6.26938pt too wide) in paragraph at lines 101--102
 []\T1/ptm/m/n/10 Since $\OMS/ztmcm/m/n/10 L\OT1/ztmcm/m/n/10 [\OML/ztmcm/m/it/10 g\OT1/ztmcm/m/n/10 ; \OML/ztmcm/m/it/10 \OT1/ztmcm/m/n/10 ] \OMS/ztmcm/m/n/10 2 \OML/ztmcm/m/it/10 C[]\OT1/ztmcm/m/n/10 (\OML/ztmcm/m/it/10 M; \U/msb/m/n/10 R\OT1/ztmcm/m/n/10 )$ \T1/ptm/m/n/10 and $\OML/ztmcm/m/it/10 dV[] \OMS/ztmcm/m/n/10 2 \OT1/ztmcm/m/n/10 
 [](\OML/ztmcm/m/it/10 M\OT1/ztmcm/m/n/10 )$\T1/ptm/m/n/10 , we have $\OML/ztmcm/m/it/10 ! \OMS/ztmcm/m/n/10  L\OT1/ztmcm/m/n/10 [\OML/ztmcm/m/it/10 g\OT1/ztmcm/m/n/10 ; \OML/ztmcm/m/it/10 \OT1/ztmcm/m/n/10 ]\OML/ztmcm/m/it/10 dV[] \OMS/ztmcm/m/n/10 2 \OT1/ztmcm/m/n/10 
 [](\OML/ztmcm/m/it/10 M\OT1/ztmcm/m/n/10 )$\T1/ptm/m/n/10 , there-fore $\OML/ztmcm/m/it/10 a[] \OT1/ztmcm/m/n/10 = (\OMS/ztmcm/m/n/10 L\OT1/ztmcm/m/n/10 [\OML/ztmcm/m/it/10 g\OT1/ztmcm/m/n/10 ; \OML/ztmcm/m/it/10 \OT1/ztmcm/m/n/10 ] \OMS/ztmcm/m/n/10 
  []
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 117.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 121.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
-[3]
-Package hyperref Info: bookmark level for unknown examp defaults to 0 on input line 188.
- [4] [5]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 202.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 121.
+[4] [5]
+Package hyperref Info: bookmark level for unknown examp defaults to 0 on input line 190.
+ [6]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 226.
  (/home/louan/.miktex/texmfs/install/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [6] (main.aux)
+) [7] (main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D982133B732DDB57DF70382AFB318EB4;1865.
+(rerunfilecheck)             Checksum: 9896191D894B18232FCF97E10AC31F0D;2832.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50367 strings out of 478865
- 1080911 string characters out of 2853437
- 1945438 words of memory out of 3000000
- 67233 multiletter control sequences out of 15000+600000
- 496032 words of font info for 197 fonts, out of 8000000 for 9000
+ 50393 strings out of 478865
+ 1081541 string characters out of 2853437
+ 1944609 words of memory out of 3000000
+ 67249 multiletter control sequences out of 15000+600000
+ 498819 words of font info for 199 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,12n,127p,1261b,1831s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 108i,12n,127p,1261b,1833s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
- </home/louan/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1000.pk>{/home/louan/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/louan/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/louan/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/louan/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/louan/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/louan/.miktex/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb></home/louan/.miktex/texmfs/install/fonts/type1/public/rsfs/rsfs10.pfb></home/louan/.miktex/texmfs/install/fonts/type1/urw/symbol/usyr.pfb></home/louan/.miktex/texmfs/install/fonts/type1/urw/symbol/usyr.pfb></home/louan/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/louan/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/louan/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 143038 bytes).
+ </home/louan/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1000.pk>{/home/louan/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/louan/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/louan/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/louan/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/louan/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/louan/.miktex/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb></home/louan/.miktex/texmfs/install/fonts/type1/public/rsfs/rsfs10.pfb></home/louan/.miktex/texmfs/install/fonts/type1/urw/symbol/usyr.pfb></home/louan/.miktex/texmfs/install/fonts/type1/urw/symbol/usyr.pfb></home/louan/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/louan/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/louan/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/louan/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (7 pages, 168222 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 278 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
